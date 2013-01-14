@@ -15,8 +15,6 @@ PS1="\u@\h \W\$ "
 export PATH=/usr/local/teTeX/bin:$PATH
 export MANPATH=/usr/local/teTeX/man:$MANPATH
 
-export PATH=$PATH:/Users/taku/Dropbox/Projects/ProgrammingProjects/RubyProjects/review/bin
-
 export FRAMEWORKPATH=/Library/Frameworks
 
 export CLICOLOR=1
