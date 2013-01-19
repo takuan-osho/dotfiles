@@ -44,11 +44,4 @@ sudo chown -R $USER:$USER.viminfo;
 git clone git://github.com/Shougo/neobundle.vim.git ~/.vim/neobundle.vim;
 
 # gitのデフォルト設定
-git config --global user.name "SHIMIZU Taku";
-git config --global user.email shimizu.taku@gmail.com;
 git config --global core.editor 'vim -c "set fenc=utf-8"';
-git config --global color.ui auto
-git config --global alias.st status
-git config --global alias.ci commit
-git config --global alias.co checkout
-git config --global alias.d diff
