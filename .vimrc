@@ -3,7 +3,7 @@ filetype off
 
 if has('vim_starting')
     set rtp+=$HOME/.dotfiles/.vim/bundle/neobundle.vim/
-    call neobundle#rc(expand('$HOME/.dotfiles/.vim/bundle/'))
+    call neobundle#rc(expand('$HOME/.vim/bundle/'))
 endif
 
 
