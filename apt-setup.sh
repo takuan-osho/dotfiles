@@ -42,7 +42,7 @@ sudo aptitude install -y python-dev;
 mkdir ~/.vim/bundle;
 sudo chown -R $USER:$USER.vim;
 sudo chown -R $USER:$USER.viminfo;
-git clone git://github.com/Shougo/neobundle.vim.git ~/.vim/neobundle.vim;
+git clone https://github.com/Shougo/neobundle.vim.git ~/.vim/bundle;
 
 # gitのデフォルト設定
 git config --global core.editor 'vim -c "set fenc=utf-8"';
