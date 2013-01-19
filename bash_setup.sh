@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 DOT_FILES=( ".vimrc" ".bashrc" ".zshrc" ".gitconfig" ".gitignore_global" ".hgrc" ".hgignore_global" )
 
