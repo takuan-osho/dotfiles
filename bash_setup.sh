@@ -2,7 +2,6 @@
 
 DOT_FILES=( ".vimrc" ".bashrc" ".zshrc" ".gitconfig" ".gitignore_global" ".hgrc" ".hgignore_global" )
 
-
 mv $HOME/dotfiles/ $HOME/.dotfiles
 
 for file in ${DOT_FILES[@]}
