@@ -7,6 +7,7 @@ sudo aptitude -y install ssh;
 sudo aptitude install -y language-pack-ja;
 sudo aptitude install -y manpages-ja;
 sudo update-locale LANG=ja_JP.UTF-8
+sudo update-locale LANGUAGE=ja_JP.UTF-8
 sudo dpkg-reconfigure locales;
 source ~/.bashrc;
 
