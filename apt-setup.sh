@@ -44,6 +44,3 @@ sudo chown -R $USER:$USER.vim;
 sudo chown -R $USER:$USER.viminfo;
 rm -rf ~/.vim/bundle/neobundle.vim
 git clone https://github.com/Shougo/neobundle.vim.git ~/.dotfiles/.vim/bundle/neobundle.vim;
-
-# gitのデフォルト設定
-git config --global core.editor 'vim -c "set fenc=utf-8"';
