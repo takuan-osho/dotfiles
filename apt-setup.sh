@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # updateする前にしておきたいこと
 sudo aptitude -y install ssh;
