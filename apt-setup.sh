@@ -5,7 +5,10 @@ sudo aptitude -y install ssh;
 
 # 日本語設定
 sudo aptitude install -y language-pack-ja;
+sudo aptitude install -y manpages-ja;
+sudo update-locale LANG=ja_JP.UTF-8
 sudo dpkg-reconfigure locales;
+source ~/.bashrc;
 
 # アップデート
 sudo aptitude update -y;
@@ -18,10 +21,8 @@ fi
 EOF
 
 # 各種必要なものをインストール
-sudo aptitude install -y ntp;
 sudo aptitude install -y vim;
 sudo aptitude install -y git;
-sudo aptitude install -y tree;
 sudo aptitude install -y tmux;
 
 sudo aptitude install -y build-essential;
