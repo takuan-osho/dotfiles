@@ -39,10 +39,11 @@ sudo aptitude install -y zip;
 sudo aptitude install -y python-dev;
 
 # NeoBundleするための準備
-mkdir ~/.vim/bundle;
+ln -sb ~/.dotfiles/.vim ~/
 sudo chown -R $USER:$USER.vim;
 sudo chown -R $USER:$USER.viminfo;
-git clone https://github.com/Shougo/neobundle.vim.git ~/.vim/bundle;
+rm -rf ~/.vim/bundle/neobundle.vim
+git clone https://github.com/Shougo/neobundle.vim.git ~/.dotfiles/.vim/bundle/neobundle.vim;
 
 # gitのデフォルト設定
 git config --global core.editor 'vim -c "set fenc=utf-8"';
