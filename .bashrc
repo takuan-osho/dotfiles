@@ -2,10 +2,30 @@ PS1="\u@\h \W\$ "
 
 export LANG=ja_JP.UTF-8
 
-alias ls="ls -F"
+# OS毎に ls の場合分け
+case "$OSTYPE" in
+    darwin*)
+        alias l="ls -FG"
+        alias ls="ls -FG"
+        ;;
+    linux*)
+        alias l="ls -F --color=auto"
+        alias ls="ls -F --color=auto"
+        ;;
+    cygwin*)
+        alias l="ls -F --color=auto"
+        alias ls="ls -F --color=auto"
+        ;;
+esac
+
+alias la="ls -a"
+alias ll="ls -al"
+
 alias rm="rm -i"
 alias cp="cp -i"
 alias mv="mv -i"
+
+
 case ${OSTYPE} in
     darwin*)
         # Mac
