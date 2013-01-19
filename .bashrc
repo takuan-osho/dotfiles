@@ -18,8 +18,8 @@ case "$OSTYPE" in
         ;;
 esac
 
-alias la="ls -a"
-alias ll="ls -al"
+alias la="ls -aF"
+alias ll="ls -alF"
 
 alias rm="rm -i"
 alias cp="cp -i"
