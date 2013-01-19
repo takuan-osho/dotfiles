@@ -1,5 +1,7 @@
 PS1="\u@\h \W\$ "
 
+export LANG=ja_JP.UTF-8
+
 alias ls="ls -F"
 alias rm="rm -i"
 alias cp="cp -i"
