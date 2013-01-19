@@ -3,9 +3,9 @@ filetype off
 
 if has('vim_starting')
     set rtp+=$HOME/.dotfiles/.vim/bundle/neobundle.vim/
+    call neobundle#rc(expand('$HOME/.dotfiles/.vim/bundle/'))
 endif
 
-call neobundle#rc(expand('$HOME/.dotfiles/.vim/bundle/'))
 
 NeoBundle 'Shougo/vimproc'
 NeoBundle 'Shougo/neobundle.vim'
