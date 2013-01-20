@@ -74,7 +74,8 @@ autocmd FileType python setl expandtab tabstop=4 shiftwidth=4 softtabstop=4
 autocmd FileType python let g:pydiction_location ='~/.vim/bundle/Pydiction/complete-dict'
 
 let g:user_zen_settings = {
-\  'lang' : 'ja',
+\'lang': 'ja',
+\'indentation': '  '
 \}
 
 " タイムライン選択用の Unite を起動する
