@@ -29,8 +29,9 @@ NeoBundle 'basyura/TweetVim.git'
 NeoBundle 'pep8'
 NeoBundle 'pyflakes.vim'
 NeoBundle 'Pydiction'
-
 NeoBundle 'virtualenv.vim'
+
+NeoBundle 'scrooloose/syntastic.git'
 
 NeoBundle 'ref.vim'
 
