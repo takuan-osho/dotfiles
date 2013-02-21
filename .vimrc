@@ -16,6 +16,7 @@ NeoBundle 'thinca/vim-quickrun'
 
 NeoBundle 'mattn/zencoding-vim.git'
 NeoBundle 'mattn/mkdpreview-vim.git'
+NeoBundle 'mattn/httpstatus-vim.git'
 
 NeoBundle 'davidhalter/jedi-vim.git'
 
