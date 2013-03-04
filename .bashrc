@@ -57,3 +57,5 @@ fi
 
 export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init -)"
+
+export PATH=$PATH:/usr/local/share/npm/bin
