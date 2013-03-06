@@ -49,6 +49,7 @@ export EDITOR="vim"
 
 export PYTHONSTARTUP=~/.pythonstartup
 export VIRTUALENV_USE_DISTRIBUTE=true
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
     export WORKON_HOME=$HOME/.virtualenvs
