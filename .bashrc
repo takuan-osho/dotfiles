@@ -39,6 +39,35 @@ case ${OSTYPE} in
         # Mac
         alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
         alias vi="vim"
+
+        alias safari="open -a Safari"
+        alias firefox="open -a FireFox"
+        alias chrome="open -a Google\ Chrome"
+        alias opera="open -a Opera"
+        alias sleip="open -a Sleipnir"
+
+        alias mail="open -a Mail"
+        alias message="open -a Messages"
+        alias abook="open -a Contacts"
+        alias cal="open -a Calendar"
+        alias rem="open a- Reminders"
+        alias prev="open -a Preview"
+        alias tune="open -a iTunes"
+        alias sysp="open -a System\ Preferences"
+
+        alias todo="open -a Todo"
+        alias due="open -a Due"
+        alias wunder="open -a Wunderlist"
+        alias coda="open -a Coda\ 2"
+        alias cot="open -a CotEditor"
+        alias dayone="open -a Day\ One"
+        alias sigil="open -a Sigil"
+        alias sigil43="open -a Sigil4Epub3"
+        alias murasaki="open -a Murasaki"
+        alias bty="open -a BathyScaphe"
+
+        alias xcode="open -a Xcode"
+        alias stree="open -a SourceTree"
         ;;
 esac
 
@@ -60,3 +89,4 @@ export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init -)"
 
 export PATH=$PATH:/usr/local/share/npm/bin
+export PGDATA=/usr/local/var/postgres
