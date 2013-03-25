@@ -90,3 +90,7 @@ eval "$(rbenv init -)"
 
 export PATH=$PATH:/usr/local/share/npm/bin
 export PGDATA=/usr/local/var/postgres
+
+export GOROOT=/usr/local/go
+export PATH=$PATH:$GOROOT/bin
+export GOENVHOME=$HOME/.goenvs

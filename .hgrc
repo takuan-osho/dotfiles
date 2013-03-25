@@ -28,6 +28,7 @@ progress=
 rebase=
 record=
 transplant=
+largefiles=
 
 [alias]
 #_status = status
