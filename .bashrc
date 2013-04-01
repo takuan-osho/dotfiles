@@ -94,3 +94,5 @@ export PGDATA=/usr/local/var/postgres
 export GOROOT=/usr/local/go
 export PATH=$PATH:$GOROOT/bin
 export GOENVHOME=$HOME/.goenvs
+
+export PATH=$HOME/.cabal/bin:$PATH
