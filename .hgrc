@@ -30,6 +30,9 @@ record=
 transplant=
 largefiles=
 
+[mq]
+secret=True
+
 [alias]
 #_status = status
 #st = ! $HG _status $($HG root) $HG_ARGS

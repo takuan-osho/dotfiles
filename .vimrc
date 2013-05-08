@@ -6,6 +6,8 @@ if has('vim_starting')
     call neobundle#rc(expand('$HOME/.vim/bundle/'))
 endif
 
+NeoBundle 'git://github.com/tpope/vim-surround.git'
+NeoBundle 'jnwhiteh/vim-golang.git'
 
 NeoBundle 'Shougo/vimproc'
 NeoBundle 'Shougo/neobundle.vim'
@@ -33,7 +35,6 @@ NeoBundle 'Pydiction'
 NeoBundle 'virtualenv.vim'
 
 NeoBundle 'scrooloose/syntastic.git'
-
 NeoBundle 'ref.vim'
 
 set encoding=utf8
@@ -54,6 +55,7 @@ set foldlevel=0
 set clipboard+=unnamed
 
 set nobackup
+set nowritebackup
 set autoread
 set noswapfile
 set hidden
@@ -97,6 +99,10 @@ if neobundle#exists_not_installed_bundles()
         \ string(neobundle#get_not_installed_bundle_names())
     echomsg 'Please execute ":NeoBundleInstall" command.'
     "finish
+endif
+
+if $GOROOT != ''
+    set rtp+=$GOROOT/misc/vim
 endif
 
 syntax on

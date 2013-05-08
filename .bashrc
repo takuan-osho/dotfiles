@@ -92,7 +92,8 @@ export PATH=$PATH:/usr/local/share/npm/bin
 export PGDATA=/usr/local/var/postgres
 
 export GOROOT=/usr/local/go
-export PATH=$PATH:$GOROOT/bin
+export GOPATH=$HOME/_go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export GOENVHOME=$HOME/.goenvs
 
 export PATH=$HOME/.cabal/bin:$PATH
