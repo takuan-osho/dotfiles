@@ -38,7 +38,8 @@ case ${OSTYPE} in
     darwin*)
         # Mac
         alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
-        alias vi="vim"
+        alias vi="emacs"
+        alias emacs="/Applications/Emacs.app/Contents/MacOS/emacs -nw"
 
         alias safari="open -a Safari"
         alias firefox="open -a FireFox"
@@ -78,7 +79,7 @@ export EDITOR="vim"
 
 export PYTHONSTARTUP=~/.pythonstartup
 export VIRTUALENV_USE_DISTRIBUTE=true
-export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+# export PYTHONPATH=~/.virtualenvs/site-packages:/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 
 if [ -f /usr/local/bin/virtualenvwrapper.sh ]; then
     export WORKON_HOME=$HOME/.virtualenvs
@@ -92,7 +93,7 @@ export PATH=$PATH:/usr/local/share/npm/bin
 export PGDATA=/usr/local/var/postgres
 
 export GOROOT=/usr/local/go
-export GOPATH=$HOME/_go
+export GOPATH=$HOME/.go
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 export GOENVHOME=$HOME/.goenvs
 
