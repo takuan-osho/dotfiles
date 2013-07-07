@@ -20,3 +20,9 @@
 ;; enable evil
 (require 'evil)
 (evil-mode 1)
+
+;; ノーマルステートでemacsとして足りないキーバインドを追加する。
+(define-key evil-normal-state-map (kbd "C-e") 'move-end-of-line)
+
+;; インサートステートでemacsとして足りないキーバインドを追加する。
+(define-key evil-insert-state-map (kbd "C-e") 'move-end-of-line)
