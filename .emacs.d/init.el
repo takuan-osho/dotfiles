@@ -40,3 +40,4 @@
             (local-set-key (kbd "C-c d") 'godoc)))
 
 (add-hook 'before-save-hook 'gofmt-before-save)
+(require 'go-flymake)
