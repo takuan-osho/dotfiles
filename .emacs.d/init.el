@@ -28,6 +28,11 @@
 ;; インサートステートでemacsとして足りないキーバインドを追加する。
 (define-key evil-insert-state-map (kbd "C-e") 'move-end-of-line)
 
+;; Erlang用の設定
+(add-to-list 'load-path "~/.emacs.d/elpa/erlang")
+(require 'erlang-start)
+(require 'erlang-flymake)
+
 ;; golang用の設定
 (add-to-list 'load-path "~/.emacs.d/elpa/golang")
 (require 'go-mode-load)
@@ -42,3 +47,9 @@
 
 (add-hook 'before-save-hook 'gofmt-before-save)
 (require 'go-flymake)
+
+;; Wind Moveの設定
+(global-set-key (kbd "C-c <left>")  'windmove-left)
+(global-set-key (kbd "C-c <right>") 'windmove-right)
+(global-set-key (kbd "C-c <up>")    'windmove-up)
+(global-set-key (kbd "C-c <down>")  'windmove-down)
