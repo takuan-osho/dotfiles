@@ -1,4 +1,5 @@
 (global-linum-mode t)
+(show-paren-mode t)
 ;; emacs directory
 (when load-file-name
   (setq user-emacs-directory (file-name-directory load-file-name)))
