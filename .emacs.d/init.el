@@ -40,22 +40,9 @@
 (define-key evil-insert-state-map (kbd "C-e") 'move-end-of-line)
 
 ;; Erlang用の設定
-(require 'erlang-start)
-(require 'erlang-flymake)
-
+(load "init-erlang")
 ;; golang用の設定
-(require 'go-mode-load)
-(add-hook 'go-mode-hook
-          '(lambda()
-            (setq c-basic-offset 4)
-            (setq indent-tabs-mode t)
-            (local-set-key (kbd "M-.") 'godef-jump)
-            (local-set-key (kbd "C-c C-r") 'go-remove-unused-imports)
-            (local-set-key (kbd "C-c i") 'go-goto-imports)
-            (local-set-key (kbd "C-c d") 'godoc)))
-
-(add-hook 'before-save-hook 'gofmt-before-save)
-(require 'go-flymake)
+(load "init-golang")
 
 ;; Wind Moveの設定
 (global-set-key (kbd "C-c <left>")  'windmove-left)
