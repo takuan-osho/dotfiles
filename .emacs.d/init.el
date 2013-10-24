@@ -1,5 +1,7 @@
 (global-linum-mode t)
 (show-paren-mode t)
+(add-to-list 'load-path "~/.emacs.d/elisp")
+
 ;; emacs directory
 (when load-file-name
   (setq user-emacs-directory (file-name-directory load-file-name)))
@@ -30,12 +32,12 @@
 (define-key evil-insert-state-map (kbd "C-e") 'move-end-of-line)
 
 ;; Erlang用の設定
-(add-to-list 'load-path "~/.emacs.d/elpa/erlang")
+(add-to-list 'load-path "~/.emacs.d/elisp/erlang")
 (require 'erlang-start)
 (require 'erlang-flymake)
 
 ;; golang用の設定
-(add-to-list 'load-path "~/.emacs.d/elpa/golang")
+(add-to-list 'load-path "~/.emacs.d/elisp/golang")
 (require 'go-mode-load)
 (add-hook 'go-mode-hook
           '(lambda()
