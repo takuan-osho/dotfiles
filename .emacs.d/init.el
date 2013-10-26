@@ -1,5 +1,4 @@
-(global-linum-mode t)
-(show-paren-mode t)
+;; load-path setting
 (defun add-to-load-path (&rest paths)
   (let (path)
     (dolist (path paths paths)
@@ -9,6 +8,9 @@
 	(if (fboundp 'normal-top-level-add-subdirs-to-load-path)
 	    (normal-top-level-add-subdirs-to-load-path))))))
 (add-to-load-path "elisp" "conf" "public_repos")
+
+;; initialize configuration
+(load "init-conf")
 
 ;; emacs directory
 (when load-file-name
