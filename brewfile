@@ -45,3 +45,6 @@ install tig
 install tmux
 install tree
 install wget
+
+# クリーンアップ
+cleanup
