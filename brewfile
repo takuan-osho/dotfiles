@@ -44,8 +44,335 @@ install docker
 # dmg系パッケージのインストール
 cask install vagrant
 cask install virtualbox
+cask install airserver
+cask install adium
+cask install adobe-air
+cask install adobe-reader
+cask install airserver
+# alfred2なのか分からないので保留 - alfred
+cask install amazon-cloud-drive
+cask install amazon-cloud-player
+cask install appcleaner
+cask install appcode
+cask install audacity
+cask install bartender
+cask install bathyscaphe
+cask install bettertouchtool
+cask install bitmessage
+cask install bittorrent-sync
+cask install caffeine
+cask install chromium
+cask install cleanmymac
+cask install cocoarestclient
+cask install coda
+cask install coteditor
+cask install cyberduck
+cask install daisydisk
+cask install dropbox
+cask install evernote
+cask install firefox
+cask install flip4mac
+cask install gimp
 cask install google-chrome
+cask install google-drive
+cask install google-hangouts
+cask install googleappenginelauncher
+# growl-fork
+# growler
+# growlnotify
+# growlvoice
+# gyazo
+cask install handbrake
+# haskell-platform
+cask install heroku-toolbelt
+cask install hipchat
+cask install inkscape
+cask install insync
+cask install intellij-idea-ultimate
+cask install iterm2
+# java
+# julia
+cask install keyremap4macbook
 cask install kobito
+cask install launchrocket
+cask install libreoffice
+# light-table
+cask install limechat
+# mactex
+# macvim
+# mamp
+cask install nitrous-io
+# openemu
+cask install opera
+# osxfuse
+# perian
+cask install poedit
+cask install pycharm-community
+# reflector
+cask install skitch
+# cask install skydrive
+cask install skype
+smartgithg
+smcfancontrol
+smoothmouse
+snagit
+snip
+snippets-me
+soleol
+sonic-visualiser
+sonos
+sophos-antivirus
+soulseek
+soulver
+soundcleod
+soundflower
+soundnote
+sourcetree
+spacemonkey
+spacious
+spark-inspector
+sparkle
+sparkleshare
+sparrow
+spectacle
+speed-download
+speedcrunch
+speedlimit
+speedtao
+spek
+spideroak
+spirited-away
+splashtop-personal
+splashtop-streamer
+splayerx
+spotdox
+spotifree
+spotify
+spotify-menubar
+spotify-notifications
+spring-tool-suite
+spyder
+sqleditor
+sqlexplorer
+sqlite-browser
+squidman
+squirrel
+sqwiggle
+sshfs
+startninja
+stay
+steam
+steermouse
+stellarium
+strongvpn
+subethaedit
+subler
+sublime-text
+subnetcalc
+subsmarine
+subtitle-master
+subtitles
+sunlogin-remote
+super-otr
+supercollider
+superduper
+supersync
+surplusmeter
+suspicious-package
+sweet-home3d
+swingfish
+swinsian
+synergy
+synology-assistant
+synthesia
+tagalicious
+tagger
+tagr
+tapaal
+taskpaper
+teamspeak-client
+teamviewer
+teamviz
+teeworlds
+teleport
+testflight
+texmacs
+texmaker
+texnicle
+texshop
+textadept
+textexpander
+textmate
+textroom
+texts
+textwrangler
+the-archive-browser
+the-hit-list
+the-tube
+the-unarchiver
+theremin
+things
+thong
+thumbsup
+thunderbird
+thyme
+tickets
+tikz-editor
+tiled
+tilemill
+time-out
+time-tracker-mac
+timemachineeditor
+timemachinescheduler
+timings
+tinkertool
+tinygrab
+tinyumbrella
+tk-suite-client
+toad-mac
+toau
+todoist
+todos
+tofu
+toggldesktop
+tomahawk
+tomighty
+tongbu
+tor-browser
+torustrooper
+totalfinder
+totals
+totalspaces
+totalterminal
+tower
+tox-poison
+trailer
+trailrunner
+transmission
+transmission-remote-gui
+transmit
+treemaker
+treesheets
+tresorit
+trickster
+trim-enabler
+truecrypt
+tubbler
+tune-instructor
+tunewiki
+tunnelbear
+tunnelblick
+tuxguitar
+tv-browser
+tv-show-tracker
+tvmobili
+tvshows
+twine
+twitterrific
+typinator
+uber-network-fuser
+uberpov
+ubuntu-one
+ukelele
+uncrustifyx
+undercover
+unetbootin
+uninstallpkg
+unison
+unison-usenet
+unity3d
+unpkg
+unrarx
+usb-overdrive
+utorrent
+vagrant
+valentina-studio
+versions
+viber
+vico
+videospec
+vienna-rss
+vimediamanager
+vine-server
+vinoteka
+virtualbox
+virtualhostx
+viscosity
+visit
+vistrails
+visualvm
+vitamin-r
+vlc
+vlc-remote
+vlcstreamer
+vmware-fusion
+vocabulist
+voicemac
+vox-preference-pane
+vyprvpn
+wacom-bamboo-tablet
+wacom-tablet
+wallpaper-wizard
+wasted
+waterroof
+wavtap
+webp-quicklook
+webp-quicklook
+webstorm
+wedge
+weibox
+weka
+welly
+whatpulse
+whatsapp-pocket
+whiteclock
+whitehat-aviator
+widelands
+wineskin
+cask install wireshark
+witch
+witgui
+woodhouse
+wordservice
+wraparound
+wuala
+wunderlist
+wyzo
+x48
+xact
+xamarin-studio
+xbench
+xbmc
+xbox360-controller-driver
+xiami
+xld
+xmarks-safari
+xmind
+xnviewmp
+xquartz
+xrg
+xscope
+xslimmer
+xtrafinder
+xunlei
+yanvi
+ynab
+yorufukurou
+youdao
+younited
+youview
+yubikey-personalization-gui
+yubiswitch
+zap-proxy
+zepheer
+zephyros
+zeroad
+zeroxed
+zipcleaner
+zipeg
+zooom
+zotero
+zterm
 
 # クリーンアップ
 cleanup
