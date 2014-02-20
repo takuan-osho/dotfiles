@@ -8,12 +8,6 @@ upgrade
 tap homebrew/binary
 tap phinze/homebrew-cask
 
-# dmg系パッケージのインストール
-cask install vagrant
-cask install virtualbox
-cask install google-chrome
-cask install kobito
-
 # パッケージのインストール
 install brew-cask
 install colordiff
@@ -45,6 +39,13 @@ install tig
 install tmux
 install tree
 install wget
+install docker
+
+# dmg系パッケージのインストール
+cask install vagrant
+cask install virtualbox
+cask install google-chrome
+cask install kobito
 
 # クリーンアップ
 cleanup
